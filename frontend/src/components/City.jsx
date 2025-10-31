@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CityDropdown = () => {
+const City = () => {
   const [selectedState, setSelectedState] = useState("");
   const [cities, setCities] = useState([]);
 
@@ -52,4 +52,4 @@ const CityDropdown = () => {
   );
 };
 
-export default CityDropdown;
+export default City;

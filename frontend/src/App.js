@@ -1,5 +1,5 @@
 import React from "react";
-import CityDropdown from "./components/CityDropdown";
+import City from "./components/City";
 import ISP_Provider from "./components/ISP_Provider";
 
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       
-      <CityDropdown />
+      <City />
       <ISP_Provider/>
     </div>
   );
